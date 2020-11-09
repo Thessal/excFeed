@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "excfeed"
+version = "0.1.0"
+description = ""
+authors = ["Jongkook Choi"]
+
+[tool.poetry.dependencies]
+python = "3.8.3"
+pandas = "^1.1.4"
+numpy = "^1.19.4"
+scipy = "^1.5.3"
+scikit-learn = "^0.23.2"
+findatapy = "^0.1.18"
+matplotlib = "^3.3.2"
+orjson = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
